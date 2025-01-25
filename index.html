@@ -12,9 +12,10 @@
       <h1>LueinHire</h1>
     <nav>
       <ul>
-        <li><a href="#jobs">Jobs</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#get">Get Started</a></li>
+        <li><a href="#jobs-opportunities">Jobs</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
     </nav>
     </div>
@@ -24,83 +25,91 @@
     <!-- Hero Section -->
     <section id="hero">
       <h2>Your Gateway to Career Success</h2>
-      <p>Unlock fresh opportunities, prepare confidently, and grow your skills.</p>
-      <a href="#services" class="cta">Explore Services</a>
+      <p>Join LueinHire to explore jobs, improve skills, and grow confidently.</p>
+      <a href="#services" class="cta">Get Started </a>
     </section>
+
+    <!-- Job Opportunities -->
+    <section id="job-opportunities" class="section">
+      <h2>Fresh Job Opportunities</h2>
+      <p>Over 1M+ tailored job listings waiting for you.</p>
+      <a href="jobs-opportunities" class="cta">View Jobs</a>
+    </section>
+
 
     <!-- Core Offerings Section -->
     <section id="features">
       <h2>What We Offer</h2>
       <div class="feature-grid">
-        <div class="feature">
-          <h3>Fresh Job Opportunities</h3>
-          <p>Access over 1M+ job listings tailored to your profile.</p>
-          <a href="#" class="cta">View Jobs</a>
-
-        </div>
+       
         <div class="feature">
           <h3>Practice Interviews</h3>
           <p>Prepare with real-life interview scenarios to boost confidence.</p>
-          <a href="#" class="cta">Start Practice</a>
+          <button class="cta" onclick="scrollToSection('#services')">Start practice</button>
 
         </div>
         <div class="feature">
           <h3>Mock Live Interviews</h3>
           <p>Simulate real-time interviews for a professional experience.</p>
-          <a href="#" class="cta">Simulate Now</a>
+          <button class="cta" onclick="scrollToSection('#services')">Start Mock Interview</button>
 
         </div>
         <div class="feature">
           <h3>Smart Resume Builder</h3>
           <p>Create optimized resumes that stand out to recruiters.</p>
-          <a href="#" class="cta">Build Resume</a>
+          <button class="cta" onclick="scrollToSection('#services')">Build Resume</button>
 
         </div>
-        <div class="feature">
-          <h3>Curated Online Courses</h3>
-          <p>Upskill with 50,000+ free courses across various domains.</p>
-          <a href="#" class="cta">Start Learning</a>
-       
-        </div>
+        
         <div class="feature">
           <h3>Resume Review Service</h3>
           <p>Submit your resume for professional feedback and suggestions.</p>
-          <a href="#" class="cta">Submit Resume</a>
+          <button class="cta" onclick="scrollToSection('#services')">Submit Resume</button>
 
         </div>
         <div class="feature">
           <h3>Placement Training Program</h3>
           <p>A complete guide to help you ace placements confidently.</p>
-          <a href="#" class="cta">Join Now</a>
+          <button class="cta" onclick="scrollToSection('#services')">Join Training</button>
 
         </div>
         <div class="feature">
           <h3>Coding Challenges</h3>
           <p>Solve engaging challenges to sharpen your coding skills.</p>
-          <a href="#" class="cta">Solve Challenges</a>
+          <button class="cta" onclick="scrollToSection('#services')">Solve Challenges</button>
 
         </div>
         <div class="feature">
           <h3>Quizzes</h3>
           <p>Interactive quizzes to assess and enhance your skills.</p>
-          <a href="#" class="cta">Start Quiz</a>
+          <button class="cta" onclick="scrollToSection('#services')">Start Quiz</button>
 
         </div>
-        <div class="feature">
-          <h3>Job Recommendations</h3>
-          <p>Personalized job suggestions to match your aspirations.</p>
-          <a href="#" class="cta">Start </a>
-
-        </div>
+        
       </div>
+    </section>
+    <!-- Courses -->
+    <section id="courses" class="section">
+      <h2>Curated Online Courses</h2>
+      <p>Upskill with 50,000+ free courses across various domains.</p>
+      <button class="start-button">Browse Courses</button>
     </section>
 
     <!-- Call to Action Section -->
-    <section id="get">
-      <h2>Ready to Take the Next Step?</h2>
-      <p>Start your journey with LueinHire today and achieve your career goals.</p>
-      <button id="start-button">Get Started</button>
-    </section>
+   
+
+    <section  class="section">
+      <div id ="contact">
+        <h2>Hire Us</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="number" placeholder="Your phone number" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      </section>
   </main>
 
   <footer>
