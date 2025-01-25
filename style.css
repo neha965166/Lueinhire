@@ -57,7 +57,7 @@ body, h1,h2,h3,p,ul,a{
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
-  #job-opportunities {
+  #jobs-opportunities {
     background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
     color: black;
     text-align: center;
@@ -136,7 +136,7 @@ body, h1,h2,h3,p,ul,a{
     background: #EFB6C8;
     color: white;
   }
-  #contact {
+  #contact-id {
     width: 20%;
     height: 200px;
     position: relative;
@@ -156,7 +156,7 @@ body, h1,h2,h3,p,ul,a{
     
 
   }
-  #contact button {
+  #contact-id button {
     background: black;
     color: white;
     border: 2px solid white;
@@ -164,7 +164,7 @@ body, h1,h2,h3,p,ul,a{
     border-radius: 5px;
     cursor: pointer;
   }
-  #contact button:hover{
+  #contact-id button:hover{
     background-color: greenyellow;
     color: black;
     
